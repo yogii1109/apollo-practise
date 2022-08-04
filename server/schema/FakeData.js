@@ -1,0 +1,94 @@
+ 
+ 
+ const UserList = [
+    {
+        id:1,
+        name:"Yogesh",
+        username:"yogi",
+        age:25,
+        nationality:"CANADA",
+        friends:[
+            {
+                id:2,
+                name:"Lokesh",
+                username:"logi",
+                age:24,
+                nationality:"INDIA",
+            },
+
+        ]
+    },
+    {
+        id:2,
+        name:"Lokesh",
+        username:"logi",
+        age:24,
+        nationality:"INDIA",
+    },
+    {
+        id:3,
+        name:"Ayush",
+        username:"rishu",
+        age:21,
+        nationality:"BRAZIL",
+        friends:[
+            {
+                id:4,
+                name:"Barnman",
+                username:"yogii",
+                age:27,
+                nationality:"UNITEDSTATES",
+            },
+            {
+                id:5,
+                name:"Sakshi",
+                username:"moti",
+                age:26,
+                nationality:"UNITEDSTATES",
+            },
+        ]
+    },
+    {
+        id:4,
+        name:"Barnman",
+        username:"yogii",
+        age:27,
+        nationality:"UNITEDSTATES",
+    },
+    {
+        id:5,
+        name:"Sakshi",
+        username:"moti",
+        age:26,
+        nationality:"UNITEDSTATES",
+    },
+];
+
+const MovieList = [
+    {
+        id:1,
+        name:"Avenger",
+        year:2019,
+        isInTheatre:true,
+    },
+    {
+        id:2,
+        name:"Interstellar",
+        year:2007,
+        isInTheatre:true,
+    },
+    {
+        id:3,
+        name:"Daddy",
+        year:2009,
+        isInTheatre:false,
+    },
+    {
+        id:4,
+        name:"SuperBad",
+        year:2010,
+        isInTheatre:true,
+    },
+]
+
+module.exports = { UserList , MovieList };
